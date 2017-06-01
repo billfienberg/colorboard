@@ -1,0 +1,56 @@
+.Legend {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.Legend-item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Legend-color {
+  height: 10px;
+  width: 10px;
+  margin-right: 5px;
+}
+
+.Legend-label {
+
+}
+
+.Sequence {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.Sequence-title {
+  padding: 5px 0;
+  align-self: center;
+  font-weight: bold;
+}
+
+.Sequence-cards {
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.Card {
+  margin: 0 5px 5px 5px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  flex: 1;
+}
